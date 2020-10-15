@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  service:
+    image: sgib/sgib-service:${SERVICE_VERSION}
+    environment:
+      SERVICE_HOST: ${SERVICE_HOST}
+      SERVICE_PORT: ${SERVICE_PORT}
+    ports:
+      - "${SERVICE_PORT}:${SERVICE_PORT}"

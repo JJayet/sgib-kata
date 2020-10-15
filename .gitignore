@@ -1,0 +1,11 @@
+.metals
+.bloop
+.idea
+.sbt
+.DS_Store
+
+*.iml
+assembly
+target
+project/project
+project/target
